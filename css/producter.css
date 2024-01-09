@@ -1,0 +1,255 @@
+h1 {
+  text-align: center;
+  color: white;
+  font-family: montserratitalic;
+  font-size: 5em;
+  font-style: bold;
+}
+footer {
+  font-family: lora;
+}
+.h1bilde {
+  background-image: url(/imgs/hei.webp);
+  background-color: #f5ede5;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10em;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+/* .skol05 i {
+  width: 100px;
+} */
+
+.skol0 {
+  width: 50%;
+}
+.skol1 {
+  width: 40%;
+}
+.skol2 {
+  width: 80%;
+}
+.skol3 {
+  width: 60%;
+}
+.skol4 {
+  width: 70%;
+}
+/* footer {
+  background-color: #473335;
+  color: #f5ede5;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+} */
+.fod {
+  background-color: #473335;
+}
+.fodimg {
+  width: 15%;
+}
+
+@media only screen and (min-width: 900px) {
+  .skaalcontainer {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    /* gap: 2px; */
+    height: 100%;
+  }
+
+  .skol09 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 3;
+    grid-column-end: 5;
+  }
+  .skol05 {
+    grid-row-start: 1;
+    grid-column-start: 5;
+
+    grid-row-end: 3;
+    grid-column-end: 7;
+  }
+  .skol14 {
+    grid-row-start: 1;
+    grid-column-start: 7;
+
+    grid-row-end: 3;
+    grid-column-end: 9;
+  }
+  .skol20 {
+    grid-row-start: 3;
+    grid-column-start: 1;
+
+    grid-row-end: 5;
+    grid-column-end: 4;
+  }
+
+  .skol21 {
+    grid-row-start: 3;
+    grid-column-start: 4;
+
+    grid-row-end: 5;
+    grid-column-end: 7;
+  }
+
+  .skol30 {
+    grid-row-start: 3;
+    grid-column-start: 7;
+
+    grid-row-end: 5;
+    grid-column-end: 9;
+  }
+  .skol31 {
+    grid-row-start: 5;
+    grid-column-start: 1;
+
+    grid-row-end: 7;
+    grid-column-end: 3;
+  }
+  .skol32 {
+    grid-row-start: 5;
+    grid-column-start: 3;
+
+    grid-row-end: 6;
+    grid-column-end: 5;
+  }
+  .skol33 {
+    grid-row-start: 6;
+    grid-column-start: 3;
+
+    grid-row-end: 7;
+    grid-column-end: 5;
+  }
+  .skol34 {
+    grid-row-start: 5;
+    grid-column-start: 5;
+
+    grid-row-end: 7;
+    grid-column-end: 9;
+  }
+  .skol35 {
+    grid-row-start: 7;
+    grid-column-start: 4;
+
+    grid-row-end: 9;
+    grid-column-end: 7;
+  }
+  .skol47 {
+    grid-row-start: 7;
+    grid-column-start: 7;
+
+    grid-row-end: 9;
+    grid-column-end: 9;
+  }
+  .skol51 {
+    grid-row-start: 7;
+    grid-column-start: 1;
+
+    grid-row-end: 9;
+    grid-column-end: 4;
+  }
+  .skol52 {
+    grid-row-start: 9;
+    grid-column-start: 4;
+
+    grid-row-end: 11;
+    grid-column-end: 6;
+  }
+  .skol52 {
+    grid-row-start: 9;
+    grid-column-start: 6;
+
+    grid-row-end: 11;
+    grid-column-end: 9;
+  }
+  .skol53 {
+    grid-row-start: 9;
+    grid-column-start: 1;
+
+    grid-row-end: 11;
+    grid-column-end: 6;
+  }
+  .skol57 {
+    grid-row-start: 11;
+    grid-column-start: 1;
+
+    grid-row-end: 13;
+    grid-column-end: 3;
+  }
+  .skol59 {
+    grid-row-start: 11;
+    grid-column-start: 3;
+
+    grid-row-end: 13;
+    grid-column-end: 5;
+  }
+  .skol61 {
+    grid-row-start: 11;
+    grid-column-start: 5;
+
+    grid-row-end: 13;
+    grid-column-end: 7;
+  }
+  .skol81 {
+    grid-row-start: 11;
+    grid-column-start: 7;
+
+    grid-row-end: 13;
+    grid-column-end: 9;
+  }
+  .skol84 {
+    grid-row-start: 13;
+    grid-column-start: 1;
+
+    grid-row-end: 15;
+    grid-column-end: 4;
+  }
+  .skol92 {
+    grid-row-start: 13;
+    grid-column-start: 4;
+
+    grid-row-end: 15;
+    grid-column-end: 6;
+  }
+  .skol94 {
+    grid-row-start: 13;
+    grid-column-start: 6;
+
+    grid-row-end: 15;
+    grid-column-end: 9;
+  }
+
+  footer {
+    background-color: #473335;
+    color: #f5ede5;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

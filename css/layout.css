@@ -1,0 +1,46 @@
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+ul {
+  display: flex;
+  justify-content: right;
+  gap: 9em;
+}
+/* header {
+
+} */
+
+/* grid layout for index side */
+.grid_2-3 {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+@media (min-width: 601px) {
+  .grid_2-3 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: none;
+  }
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .se_bowls {
+    display: flex;
+    flex-direction: column;
+  }
+  .pil {
+    align-self: center;
+  }
+  .pil2 {
+    align-self: flex-end;
+  }
+}
